@@ -1,5 +1,5 @@
 extern void add(char a[], char b[], char value[]);
-void multiply(int MAXSIZE, char a[], char b[], char value[]) {
+void multiply(int MAXSIZE, char a[], char b[], char value[]) {      //value = a * b, 且 a, b, value 均以倒序存储
     int next = 0;
     char m[MAXSIZE*MAXSIZE];
     char n[MAXSIZE*MAXSIZE];
